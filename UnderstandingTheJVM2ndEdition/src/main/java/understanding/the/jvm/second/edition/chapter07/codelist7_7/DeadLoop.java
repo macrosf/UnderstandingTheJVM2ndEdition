@@ -1,4 +1,4 @@
-package understanding.the.jvm.second.edition.chapter07.codelist7_6;
+package understanding.the.jvm.second.edition.chapter07.codelist7_7;
 
 public class DeadLoop {
 	static class DeadLoopClass{
