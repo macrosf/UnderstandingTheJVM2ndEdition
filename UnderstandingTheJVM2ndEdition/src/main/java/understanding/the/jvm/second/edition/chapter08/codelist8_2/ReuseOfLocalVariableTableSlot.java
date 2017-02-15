@@ -7,8 +7,6 @@ public class ReuseOfLocalVariableTableSlot {
 			@SuppressWarnings("unused")
 			byte[] placeholder = new byte[1024*1024*64];
 		}
-		@SuppressWarnings("unused")
-		int a=0;
 		System.gc();
 	}
 }
