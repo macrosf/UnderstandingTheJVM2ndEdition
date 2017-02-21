@@ -9,17 +9,17 @@ import java.lang.invoke.MethodType;
 public class MethodHandleTest {
 
 	class GrandFather{
-		void thinking(){
+		public void thinking(){
 			System.out.println("i am grandfather");
 		}
 	}
 	class Father extends GrandFather{
-		void thinking(){
+		public void thinking(){
 			System.out.println("i am father");
 		}
 	}
 	class Son extends Father{
-		void thinking() {
+		public void thinking() {
 			//super.super.thinking();	//not work
 			MethodType mt = MethodType.methodType(void.class);
 			try {
